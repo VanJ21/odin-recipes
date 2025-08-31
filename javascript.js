@@ -1,18 +1,24 @@
-let name = "John";
-console.log(name);
-console.log(23 + 97);
-console.log(23 + 97 + 40 + 30 + 20 + 10);
-console.log((4 + 6 + 9) / 77);
+function add7(num) {
+    return num + 7;
+}
 
-let a = 10; 
-console.log(a);
-a = 15; 
-console.log(a);
+console.log(add7(3)); // Outputs: 10
 
-let b = 7 * a; 
-console.log(b);
+function multiply(num1, num2) {
+    return num1 * num2; 
+}
 
-const max = 57; 
-const actual = max - 13; 
-const percentage = actual / max; 
-console.log(percentage);
+console.log(multiply(7, 3));
+
+function capitalize(str) {
+    let c = str.charAt(0).toUpperCase();
+    let str1 = str.slice(1, str.length - 1).toLowerCase();
+}
+
+console.log(capitalize("diddLysQuat"));
+
+function lastLetter(str) {
+    let char = str.charAt(str.length - 1); 
+}
+
+console.log(capitalize("diddlysquat")); 
